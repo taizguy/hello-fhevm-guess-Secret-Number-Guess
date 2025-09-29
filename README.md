@@ -171,44 +171,6 @@ hello-fhevm-guess-full/
 
 ---
 
-## 📜 License & Contributors
 
-* License: MIT (see [LICENSE](LICENSE))
-* Contributors: Add your GitHub handles in `CONTRIBUTORS.md`
 
----
 
-## 🌍 Live Demo & Submission
-
-* **Live demo (optional):** [https://your-vercel-url](https://your-vercel-url)
-* **Submission:** Register on [Zama Guild](https://guild.xyz) under the bounty instructions.
-
----
-
-## ✅ Submission Checklist
-
-* [x] Public GitHub repo with README + pinned versions
-* [x] Quick start works on clean machine
-* [x] Demo GIF in `docs/demo.gif`
-* [x] Unit tests included (`backend/test`)
-* [x] Section on migrating to real FHEVM
-* [x] License + contributor notes
-
----
-
-````
-
----
-
-4. Save the file.  
-5. Stage & push it:  
-
-```bash
-git add README.md
-git commit -m "Add professional README for Zama bounty"
-git push origin main
-````
-
----
-
-Do you also want me to generate a **LICENSE file (MIT)** and a **.github/workflows/ci.yml** (for simple Node CI), so your repo is fully bounty-ready?
