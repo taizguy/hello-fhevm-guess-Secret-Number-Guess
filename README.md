@@ -121,6 +121,7 @@ const chainPublicKey = await sdk.getPublicKey();
    ```
    REACT_APP_CONTRACT_ADDRESS=0xYourDeployedContractAddress
    ```
+   and import the wallet in metamask using key in backend .env file.
 3. Run frontend with `npm start`.
 
 ---
