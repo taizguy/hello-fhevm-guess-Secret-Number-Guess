@@ -1,0 +1,107 @@
+/* Reset & base */
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #FFCC00; /* Zama yellow */
+  color: #000; /* black text */
+}
+
+.app-container {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Hero / header */
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero h1 {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.hero p {
+  margin-top: 16px;
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Image banner */
+.hero-images {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.hero-images img {
+  max-width: 180px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+/* Card area */
+.card {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  padding: 40px 30px;
+  width: 320px;
+  max-width: 90%;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.card h2 {
+  margin-bottom: 24px;
+  font-size: 1.8rem;
+}
+
+.card input {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border: 2px solid #000;
+  border-radius: 8px;
+  margin-bottom: 24px;
+  box-sizing: border-box;
+}
+
+.card button {
+  background-color: #000;
+  color: #FFF;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.card button:hover {
+  background-color: #333;
+}
+
+.message {
+  margin-top: 20px;
+  font-weight: 500;
+  color: #006400; /* dark green for success */
+}
+
+/* Footer or info */
+.footer {
+  padding: 20px;
+  text-align: center;
+  font-size: 0.9rem;
+}
