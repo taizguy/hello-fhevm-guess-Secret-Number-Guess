@@ -93,23 +93,6 @@ Dec(Eval(f, Enc(m1), Enc(m2))) == f(m1, m2)
 
 This repo uses symmetric encryption for reproducibility; replace with Zama’s SDK for true FHE.
 
----
-
-## 🌐 Deploying to Zama Testnet
-
-See [Zama Protocol Docs](https://docs.zama.ai).
-
-1. Get a testnet RPC (e.g., Sepolia + Zama relayer).
-2. Use the Zama SDK (`fhevm`) to fetch the chain’s FHE public key:
-
-```js
-// pseudo-code, check docs for current methods
-const sdk = await fhevm.initialize({ rpcUrl: 'https://sepolia.zama-relayer.example' });
-const chainPublicKey = await sdk.getPublicKey();
-```
-
-3. Replace AES mocks with SDK calls for encryption/decryption.
-4. Deploy contract to supported FHEVM testnet.
 
 ---
 
