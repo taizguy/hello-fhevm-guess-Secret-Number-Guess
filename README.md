@@ -13,7 +13,7 @@
 ```bash
 # 1) backend: start Hardhat node
 cd backend
-npm ci
+npm install
 npx hardhat node &   # keep running in one terminal
 
 # 2) in another terminal: setup, encrypt secret, deploy
@@ -36,7 +36,7 @@ For frontend:
 
 ```bash
 cd frontend
-npm ci
+npm install
 echo "REACT_APP_CONTRACT_ADDRESS=0xYourDeployedContractAddress" > .env
 npm start
 ```
