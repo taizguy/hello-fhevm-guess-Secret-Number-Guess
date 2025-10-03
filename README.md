@@ -104,7 +104,7 @@ This repo uses symmetric encryption for reproducibility; replace with Zama’s S
    ```
    REACT_APP_CONTRACT_ADDRESS=0xYourDeployedContractAddress
    ```
-   and import the wallet in metamask using key in backend .env file.
+   and import the wallet in metamask using key in backend .env file or the list provided from backedn terminal.
 3. Run frontend with `npm start`.
 
 ---
